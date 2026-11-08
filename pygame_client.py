@@ -6,9 +6,7 @@ import pygame
 import requests
 
 # Local test first. Replace this URL after Render deployment.
-API_BASE_URL = os.environ.get(
-    "WORDLE_API_URL", "http://127.0.0.1:8000"
-).rstrip("/")
+API_BASE_URL = "https://midterm-project-11-09.onrender.com"
 
 WIDTH, HEIGHT = 540, 820
 BG = (18, 18, 19)
